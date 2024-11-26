@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Table, Select, Typography, Space, Tag, Modal, Button } from "antd";
+import { Table, Select, Typography, Space, Tag, Modal } from "antd";
 import { useCalculateProfitMutation } from "./context/apiSlice";
 import { Order } from "./types/api";
 import { TableData } from "./types/table";
